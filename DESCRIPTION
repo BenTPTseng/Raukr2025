@@ -1,0 +1,27 @@
+Package: Epigen
+Title: DNA methylation analysis from high-throughput
+    bisulfite sequencing results
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Author: Ben Tseng [aut, cre], Grace Kennedy [aut]
+Maintainer: Ben Tseng <ben.t.tseng@utu.fi>, Grace Kennedy 
+    <kennedymoraa@gmail.com>
+Description: Facilitates epigenetic data analysis
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+  ggplot2
+Imports:
+  devtools,
+  roxygen2,
+  knitr,
+  pkgdown,
+  pkgload,
+  purrr,
+  pak
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
